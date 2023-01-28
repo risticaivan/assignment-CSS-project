@@ -101,7 +101,7 @@ nav {
 }
 
 #logo-text {
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 24px;
   font-weight: 900;
   color: #f9faf8;
@@ -127,7 +127,7 @@ nav {
 
 .nav-list li {
   display: inline-block;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
   color: #f9faf8;
   font-size: 18px;
   font-weight: 500;
@@ -163,7 +163,7 @@ section div {
 
 section div p {
   font-size: large;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
   width: 800px;
   text-align: center;
   color: #fff;
@@ -172,7 +172,7 @@ section div p {
 h2 {
   margin-top: 40px;
   color: #ffffff;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
   text-align: center;
 }
 /* Footer */

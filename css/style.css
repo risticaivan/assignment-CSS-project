@@ -98,11 +98,11 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 150px;
+  width: 250px;
 }
 
 #logo-text {
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 24px;
   font-weight: 900;
   color: #f9faf8;
@@ -128,7 +128,7 @@ header {
 
 .nav-list li {
   display: inline-block;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
   color: #f9faf8;
   font-size: 18px;
   font-weight: 500;
@@ -163,8 +163,7 @@ header {
 .half-hero-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-right: 30px;
+  justify-content: flex-start;
   width: 500px;
   height: 300px;
 }
@@ -175,14 +174,19 @@ header {
 }
 
 #hero-section h1 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
 }
 
+#hero-p {
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
 #hero-section p {
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: #e5e7eb;
@@ -199,7 +203,7 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 .sign-up-btn:hover {
@@ -223,7 +227,8 @@ header {
 }
 
 #section-divs h2 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 36px;
   font-weight: 500;
   text-align: center;
   color: #1f2937;
@@ -261,7 +266,7 @@ header {
 .subtext {
   width: 200px;
   margin-top: 10px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
   font-weight: 300;
   font-size: medium;
   text-align: center;
@@ -295,14 +300,14 @@ header {
 .author {
   display: flex;
   justify-content: flex-end;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
   font-weight: 800;
   font-size: 24px;
 }
 /* Section with a quote END */
 /* Sign up section with a button */
 #section-sign-up {
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial, sans-serif;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -362,17 +367,31 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    height: 150px;
+    height: 180px;
+  }
+
+  #logo-text {
+    font-size: 36px;
+  }
+
+  #logo-div {
+    align-items: center;
+  }
+
+  .nav-list li {
+    font-size: 24px;
   }
 
   #hero-section {
+    margin: 0px 0px 60px 0px;
     flex-direction: column;
     align-items: center;
     width: 90%;
   }
 
   .half-hero-section {
-    align-items: center;
+    justify-content: center;
+    max-width: 500px;
     width: auto;
     padding: 0;
   }
@@ -380,6 +399,7 @@ footer{
   .half-hero-section img {
     height: 100%;
     width: 100%;
+    margin-top: 30px;
   }
 
   .nav-list ul {
